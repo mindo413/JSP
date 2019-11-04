@@ -27,7 +27,7 @@
 			alert("여기가 어디지~?");
 			
 			// 메시지 입력 대화창(확인-입력메시지 반환, 취소-null반환)
-			var res = prompt("하이 더그지니?");
+			var res = prompt("하이 더그지니?");   
 			console.log(res);
 			document.write(res);   
 			
