@@ -17,7 +17,7 @@
 	</c:catch>
 	
 	<%-- 예외 발생했을 때 동작코드 --%>
-	<c:if test="${not empty e }">
+	<c:if test="${not empty e }">       
 		예외 발생<br>
 		${e }<br>
 		파라미터값이 없습니다! 확인하세요!<br>
